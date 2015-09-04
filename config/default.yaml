@@ -1,0 +1,13 @@
+interval: 60
+aws:
+  config: "~/.aws/config.json"
+  region: "us-west-2"
+  sqs:
+    url: "https://sqs.ap-northeast-1.amazonaws.com/your-sqs-endpoint"
+slack:
+  url: "https://hooks.slack.com/services/your-slack-url"
+  channel: "#aws-channel"
+  username: "your-name"
+  icon_emoji:
+    ok: ":angel:"
+    ng: ":no_good:"
